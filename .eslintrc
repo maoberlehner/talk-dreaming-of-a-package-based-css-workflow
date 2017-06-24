@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": "@avalanche/eslint-config",
+  "plugins": [
+    "html"
+  ]
+}
