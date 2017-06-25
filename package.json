@@ -3,13 +3,13 @@
   "version": "0.0.1",
   "author": "Markus Oberlehner",
   "dependencies": {
-    "@avalanche/component-button": "^4.0.0-alpha.3",
+    "@avalanche/component-button": "^4.0.0-alpha.4",
     "@avalanche/generic-box-sizing-reset": "^4.0.0-alpha.3",
-    "@avalanche/object-grid": "^4.0.0-alpha.11",
+    "@avalanche/object-grid": "^4.0.0-alpha.12",
     "@avalanche/setting-breakpoints": "^4.0.0-alpha.3",
     "@avalanche/setting-colors": "^4.0.0-alpha.3",
     "@avalanche/setting-spacings": "^4.0.0-alpha.4",
-    "@avalanche/utility-width": "^4.0.0-alpha.5",
+    "@avalanche/utility-width": "^4.0.0-alpha.6",
     "normalize-scss": "^7.0.0",
     "nuxt": "latest"
   },
