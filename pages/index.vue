@@ -21,10 +21,6 @@ import WcfTaskList from '../components/TaskList.vue';
 import WcfTaskForm from '../components/TaskForm.vue';
 import WcfHeadline from '../components/Headline.vue';
 
-function fetchTasks(store) {
-  return store.dispatch(`FETCH_TASKS`);
-}
-
 export default {
   computed: mapGetters([
     `completedTasks`,
@@ -35,11 +31,8 @@ export default {
     WcfTaskForm,
     WcfHeadline,
   },
-  prefetch(store) {
-    return fetchTasks(store);
-  },
-  asyncData() {
-    // return fetchTasks(this.$store);
+  fetch({ store }) {
+    return store.dispatch(`FETCH_TASKS`);
   },
 };
 </script>
