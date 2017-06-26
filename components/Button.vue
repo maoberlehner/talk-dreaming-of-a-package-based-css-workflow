@@ -15,5 +15,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/settings/generic';
 @import '~@avalanche/component-button';
 </style>
