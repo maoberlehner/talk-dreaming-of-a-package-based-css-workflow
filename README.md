@@ -1,4 +1,4 @@
-# talk-an-introduction-to-typescript
+# talk-dreaming-of-a-package-based-css-workflow
 This is an example repository created for my talk about implementing a package based CSS workflow.
 
 - Slides: [Dreaming of a Package based CSS Workflow](https://docs.google.com/presentation/d/1yrCwa8-ltGzEanuDP9TSph2cg-Hfp11KY6wq_do-lfQ).
