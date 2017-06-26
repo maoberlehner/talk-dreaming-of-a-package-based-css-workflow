@@ -14,3 +14,10 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+@import '{
+  .o-vertical-spacing,
+  .o-vertical-spacing--l
+} from ~@avalanche/object-vertical-spacing';
+</style>

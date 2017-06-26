@@ -38,13 +38,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  @import '{ .o-grid } from ~@avalanche/object-grid';
-  @import '{
-    .o-vertical-spacing,
-    .o-vertical-spacing--l
-  } from ~@avalanche/object-vertical-spacing';
-  @import '{
-    .u-width-12/12,
-    .u-width-6/12@m
-  } from ~@avalanche/utility-width';
+@import '{ .o-grid } from ~@avalanche/object-grid';
+@import '{
+  .o-vertical-spacing,
+  .o-vertical-spacing--l
+} from ~@avalanche/object-vertical-spacing';
+@import '{
+  .u-width-12/12,
+  .u-width-6/12@m
+} from ~@avalanche/utility-width';
 </style>

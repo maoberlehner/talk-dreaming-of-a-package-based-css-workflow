@@ -20,6 +20,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '~@avalanche/setting-colors';
 @import '~@avalanche/setting-spacings';
 @import '../assets/scss/settings/generic';
 
