@@ -1,11 +1,11 @@
 <template>
-  <div id="app" class="c-app">
-    <div class="o-grid o-grid--collapsed c-app__grid">
+  <div class="c-layout-default">
+    <div class="o-grid o-grid--collapsed c-layout-default__grid">
       <div class="o-grid__item u-width-12/12 u-width-3/12@m">
-        <wcf-main-nav class="c-app__sidebar"></wcf-main-nav>
+        <wcf-main-nav class="c-layout-default__sidebar"></wcf-main-nav>
       </div>
       <main class="o-grid__item u-width-12/12 u-width-9/12@m">
-        <nuxt class="c-app__main"></nuxt>
+        <nuxt class="c-layout-default__main"></nuxt>
       </main>
     </div>
   </div>
@@ -40,7 +40,7 @@ export default {
   .u-width-9/12@m
 } from ~@avalanche/utility-width';
 
-.c-app {
+.c-layout-default {
   padding: setting-spacing(m);
 
   @media (min-width: setting-breakpoint(m)) {
@@ -48,7 +48,7 @@ export default {
   }
 }
 
-.c-app__main {
+.c-layout-default__main {
   @media (min-width: setting-breakpoint(m)) {
     padding: setting-spacing(xl) setting-spacing(xxl);
   }
